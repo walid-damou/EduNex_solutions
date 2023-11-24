@@ -1,0 +1,21 @@
+{
+    "name": "am_presta",
+    "version": "1.0.0",
+    "description": "- [x] login ,register for 1 type of accounts\r - [ ] models:\r   - [x] User:\r     - [x] add User and associate an admin to it\r     - [ ] modify password\r     - [ ] delete\r   - [x] Collaborateur\r     - [ ] creation of a Societe collabs\r     - [ ] modify Collaborateur\r     - [ ] delete\r   - [x] Cours\r     - [x] create a cours\r   - [x] Departement\r     - [x] create a dept\r   - [x] Societe\r     - [x] create a societe\r   - [x] Quota\r     - [x] create a Quota\r     - [x] update quota\r   - Session\r     - [x] add session",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/saadenr/am_presta.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/saadenr/am_presta/issues"
+    },
+    "homepage": "https://github.com/saadenr/am_presta#readme"
+  }
+  
