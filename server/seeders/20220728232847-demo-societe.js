@@ -56,6 +56,16 @@ module.exports = {
           createdAt: "2022-07-12",
           updatedAt: new Date(),
         },
+        {
+          name: "Jansnat28",
+          createdAt: "2022-06-12",
+          updatedAt: new Date(),
+        },
+        {
+          name: "Janenat200",
+          createdAt: "2022-07-12",
+          updatedAt: new Date(),
+        },
       ],
       {}
     );
@@ -80,6 +90,26 @@ module.exports = {
           admin: true,
           instructor: false,
           SocieteId: 1,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          nom: "Jansnat",
+          prenom: "Mbappe",
+          email: "aazaz@zaaz.fr",
+          admin: true,
+          instructor: false,
+          SocieteId: 2,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          nom: "Jannast",
+          prenom: "Mbapwpe",
+          email: "aazaz@zaaz.fr",
+          admin: true,
+          instructor: false,
+          SocieteId: 2,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
