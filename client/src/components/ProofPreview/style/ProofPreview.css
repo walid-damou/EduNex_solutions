@@ -1,0 +1,43 @@
+.proof_preview_item {
+  position: relative;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px dashed #227be9;
+}
+
+.proof_preview_item img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.proof_preview_item_info {
+  font-family: "roboto";
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.proof_preview_item_download {
+  background-color: #227be9;
+  color: #fff;
+  width: 120px;
+  font-size: 14px;
+  text-transform: capitalize;
+  height: 30px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.proof_preview_item:hover {
+  background-color: #227ce915;
+}
