@@ -69,6 +69,10 @@ module.exports = (db) => {
   Collaborateur.belongsToMany(Session, {
     through: Session_Collab,
   });
+  // Session.hasMany(Session_Collab);
+  // Session_Collab.belongsTo(Session);
+  // Collaborateur.hasMany(Session_Collab);
+  // S
   Session.hasMany(Session_Collab);
   Session_Collab.belongsTo(Session);
   Collaborateur.hasMany(Session_Collab);
@@ -85,6 +89,9 @@ module.exports = (db) => {
   Societe.hasMany(Departement, {
     onDelete: "CASCADE",
   });
+  // Departement.belongsTo(Societe);
+  // Societe.hasMany(Collaborateur, {
+  //   onDelete: "CASCADE",
   Departement.belongsTo(Societe);
   //Societe Collab
   Societe.hasMany(Collaborateur, {
@@ -140,6 +147,18 @@ module.exports = (db) => {
       model: Request,
       unique: false,
     },
+
+    /*
+    // SuperAdmin User
+      SuperAdmin.User = SuperAdmin.belodngsTo(User);
+      User.SuperAdmin = User.hasOne(SuperAdmin);
+      // Requests
+      Collaborateur.belongsTsoMany(Cours, {
+        through: {
+          model: Request,
+          unique: true,
+        },
+    */
   });
   Cours.belongsToMany(Collaborateur, {
     through: {
